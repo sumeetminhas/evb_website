@@ -1,6 +1,7 @@
 import React from "react";
 import "./ConfirmAge.css";
-import confirmAge from "./confirmAge.jpeg"
+import confirmAge from "./confirmAge.jpeg";
+import { Link } from "react-router-dom";
 
 export const ConfirmAge = () => {
     return (
@@ -13,8 +14,9 @@ export const ConfirmAge = () => {
                 <p className="welcome-text"> WELCOME</p>
                 <p className="confirm-text"> confirm your age</p>
                 <div className="button-box">
-                    <button className="yes-button">YES</button>
-                    <button className="no-button">NO</button>
+                    <Link className="button yes-button" to="/home">YES</Link>
+                    {/* <button className="yes-button">YES</button> */}
+                    <Link className="button no-button">NO</Link>
                 </div>
 
             </div>

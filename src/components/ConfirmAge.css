@@ -50,17 +50,19 @@
     column-gap: 10px;
 }
 
-button {
+.button {
+    display: block;
     background-color: rgb(187, 150, 26);
-    padding: 10px 24px;
+    padding: 10px 20px;
     border-radius: 15px;
-    min-width: 100px;
+    min-width: 60px;
     transition-duration: 0.4s;
     border: none;
-
+    text-decoration: none;
+    color: black;
 }
 
-button:hover {
+.button:hover {
     background-color: rgb(119, 96, 18);
 
 }
