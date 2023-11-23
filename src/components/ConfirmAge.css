@@ -1,0 +1,70 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.confirm-age {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.confirm-age-background-img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.confirm-age-box {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 300px;
+    border: 10px solid rgb(139, 110, 11);
+    padding: 30px 50px;
+    margin: 30px;;
+    border-radius: 25px;
+    min-height: 200px;
+}
+
+.welcome-text {
+    color:rgb(187, 150, 26);
+    font-size:xx-large;
+    margin-top: 0;
+}
+
+.confirm-text {
+    font-size: larger;
+    color: white;
+}
+
+.button-box {
+    display: flex;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+button {
+    background-color: rgb(187, 150, 26);
+    padding: 10px 24px;
+    border-radius: 15px;
+    min-width: 100px;
+    transition-duration: 0.4s;
+    border: none;
+
+}
+
+button:hover {
+    background-color: rgb(119, 96, 18);
+
+}
+.yes-button {
+    font-weight: 700;
+}
+
