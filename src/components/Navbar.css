@@ -1,0 +1,30 @@
+.navbar {
+    height: 80px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.nav-elements ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 175%;
+    overflow: hidden;
+    padding: 0 50px;
+}
+
+.nav-elements ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-elements ul a:hover {
+    text-decoration: none;
+    color: rgb(101, 101, 36);
+}
+.nav-elements ul a.active {
+    color: yellow;
+}
